@@ -1,0 +1,261 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\controllers\\conversationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\controllers\\callsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\controllers\\callsessioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\services\\callsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\services\\callsessionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\signalr\\callsessionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\signalr\\callsessionhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\signalr\\callvideohub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\signalr\\callvideohub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\models\\callsession\\addusercallvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\models\\callsession\\addusercallvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\models\\callsession\\updateusercallvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\models\\callsession\\updateusercallvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\data\\entities\\callsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\data\\entities\\callsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\models\\callsession\\callsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\models\\callsession\\callsessiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\mappers\\callsessionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\mappers\\callsessionmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\signalr\\messengerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\signalr\\messengerhub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\models\\callsession\\updateendtimecallvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\models\\callsession\\updateendtimecallvideorequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\mappers\\contactmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\mappers\\contactmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|c:\\webbbb\\messengerprivate\\messengerprivate.api\\messengerprivate.api\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{54B46436-5283-4C5F-A78C-0A8B8980C26C}|MessengerPrivate.Api\\MessengerPrivate.Api.csproj|solutionrelative:messengerprivate.api\\services\\fileservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CallSession.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Data\\Entities\\CallSession.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Data\\Entities\\CallSession.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Data\\Entities\\CallSession.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Data\\Entities\\CallSession.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwDUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:21:58.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CallSessionController.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Controllers\\CallSessionController.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Controllers\\CallSessionController.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Controllers\\CallSessionController.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Controllers\\CallSessionController.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEoAAABnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T14:00:57.766Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateUserCallVideoRequest.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\UpdateUserCallVideoRequest.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Models\\CallSession\\UpdateUserCallVideoRequest.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\UpdateUserCallVideoRequest.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Models\\CallSession\\UpdateUserCallVideoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:20:21.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Program.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Program.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Program.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:59:35.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "MessengerHub.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\SignalR\\MessengerHub.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\SignalR\\MessengerHub.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\SignalR\\MessengerHub.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\SignalR\\MessengerHub.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:37:38.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CallVideoHub.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\SignalR\\CallVideoHub.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\SignalR\\CallVideoHub.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\SignalR\\CallVideoHub.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\SignalR\\CallVideoHub.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwCQAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T03:37:36.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ContactMapper.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Mappers\\ContactMapper.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Mappers\\ContactMapper.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Mappers\\ContactMapper.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Mappers\\ContactMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T13:57:23.599Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CallSessionMapper.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Mappers\\CallSessionMapper.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Mappers\\CallSessionMapper.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Mappers\\CallSessionMapper.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Mappers\\CallSessionMapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T03:42:45.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConversationController.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Controllers\\ConversationController.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Controllers\\ConversationController.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Controllers\\ConversationController.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Controllers\\ConversationController.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAcwCQAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:22:45.601Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CallSessionService.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Services\\CallSessionService.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Services\\CallSessionService.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Services\\CallSessionService.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Services\\CallSessionService.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA0wDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:29:47.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddUserCallVideoRequest.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\AddUserCallVideoRequest.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Models\\CallSession\\AddUserCallVideoRequest.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\AddUserCallVideoRequest.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Models\\CallSession\\AddUserCallVideoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T05:50:52.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CallSessionHub.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\SignalR\\CallSessionHub.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\SignalR\\CallSessionHub.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\SignalR\\CallSessionHub.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\SignalR\\CallSessionHub.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T06:22:20.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CallSessionDto.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\CallSessionDto.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Models\\CallSession\\CallSessionDto.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\CallSessionDto.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Models\\CallSession\\CallSessionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:56:35.894Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UpdateEndTimeCallVideoRequest.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\UpdateEndTimeCallVideoRequest.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Models\\CallSession\\UpdateEndTimeCallVideoRequest.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Models\\CallSession\\UpdateEndTimeCallVideoRequest.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Models\\CallSession\\UpdateEndTimeCallVideoRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T14:36:45.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FileService.cs",
+              "DocumentMoniker": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Services\\FileService.cs",
+              "RelativeDocumentMoniker": "MessengerPrivate.Api\\Services\\FileService.cs",
+              "ToolTip": "C:\\Webbbb\\MessengerPrivate\\MessengerPrivate.Api\\MessengerPrivate.Api\\Services\\FileService.cs",
+              "RelativeToolTip": "MessengerPrivate.Api\\Services\\FileService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-13T12:51:16.209Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
