@@ -181,6 +181,140 @@ namespace MessengerPrivate.Api.Controllers
             };
         }
 
+        [HttpGet("get-image-video-by-conversation")]
+        public async Task<ApiResult<PagingResult<MessengerDto>>> GetMessagesByConversationIdAnhHaveTypeImageOrVideo([FromQuery] GetMessengerByConversationIdRequest request)
+        {
+            if (string.IsNullOrEmpty(request.ConversationId))
+            {
+                return new ApiResult<PagingResult<MessengerDto>>
+                {
+                    Status = false,
+                    Message = "ConversationId cannot be null",
+                    Data = null
+                };
+            }
+
+            // Bộ lọc để tìm các tin nhắn có ConversationId cụ thể
+            var filter = Builders<Messenger>.Filter.Eq(m => m.ConversationId, request.ConversationId);
+
+            // Thêm bộ lọc tìm Media có Type là "image" hoặc "video"
+            var mediaFilter = Builders<Messenger>.Filter.ElemMatch(m => m.Medias, media =>
+                media.Type == "image" || media.Type == "video");
+
+            // Kết hợp cả hai bộ lọc
+            var combinedFilter = Builders<Messenger>.Filter.And(filter, mediaFilter);
+
+            var totalRecords = await _context.Messengers.CountDocumentsAsync(combinedFilter);
+
+            // Mặc định sắp xếp theo SentTime nếu không có orderBy
+            var sortField = !string.IsNullOrEmpty(request.OrderBy) ? request.OrderBy : nameof(Messenger.SentTime);
+
+            // Kiểm tra giá trị của SortBy (asc hoặc desc)
+            var sortDefinition = Builders<Messenger>.Sort.Descending(sortField); // Mặc định là giảm dần
+            if (!string.IsNullOrEmpty(request.SortBy) && request.SortBy.ToLower() == "asc")
+            {
+                sortDefinition = Builders<Messenger>.Sort.Ascending(sortField);
+            }
+
+            var skip = (request.PageIndex - 1) * request.PageSize;
+
+            var messages = await _context.Messengers
+                .Find(combinedFilter)  // Sử dụng bộ lọc kết hợp
+                .Sort(sortDefinition)
+                .Skip(skip)
+                .Limit(request.PageSize)
+                .ToListAsync();
+
+            if (messages == null || messages.Count == 0)
+            {
+                return new ApiResult<PagingResult<MessengerDto>>
+                {
+                    Status = false,
+                    Message = "No messages found for this conversation",
+                    Data = null
+                };
+            }
+
+            var messengerDtos = _mapper.Map<List<MessengerDto>>(messages);
+
+            var pagingResult = new PagingResult<MessengerDto>(messengerDtos, request.PageIndex ?? 1, request.PageSize ?? 10, (int)totalRecords);
+
+            return new ApiResult<PagingResult<MessengerDto>>
+            {
+                Status = true,
+                Message = "Successfully",
+                Data = pagingResult
+            };
+        }
+
+
+        [HttpGet("get-files-by-conversation")]
+        public async Task<ApiResult<PagingResult<MessengerDto>>> GetMessagesWithFilesByConversationId([FromQuery] GetMessengerByConversationIdRequest request)
+        {
+            if (string.IsNullOrEmpty(request.ConversationId))
+            {
+                return new ApiResult<PagingResult<MessengerDto>>
+                {
+                    Status = false,
+                    Message = "ConversationId cannot be null",
+                    Data = null
+                };
+            }
+
+            // Bộ lọc để tìm các tin nhắn có ConversationId cụ thể
+            var filter = Builders<Messenger>.Filter.Eq(m => m.ConversationId, request.ConversationId);
+
+            // Thêm bộ lọc tìm Media có Type là "file", "word", "excel", "pdf", "powerpoint", hoặc "other"
+            var mediaFilter = Builders<Messenger>.Filter.ElemMatch(m => m.Medias, media =>
+                media.Type == "file" || media.Type == "word" || media.Type == "excel" ||
+                media.Type == "pdf" || media.Type == "powerpoint" || media.Type == "other");
+
+            // Kết hợp cả hai bộ lọc
+            var combinedFilter = Builders<Messenger>.Filter.And(filter, mediaFilter);
+
+            var totalRecords = await _context.Messengers.CountDocumentsAsync(combinedFilter);
+
+            // Mặc định sắp xếp theo SentTime nếu không có orderBy
+            var sortField = !string.IsNullOrEmpty(request.OrderBy) ? request.OrderBy : nameof(Messenger.SentTime);
+
+            // Kiểm tra giá trị của SortBy (asc hoặc desc)
+            var sortDefinition = Builders<Messenger>.Sort.Descending(sortField); // Mặc định là giảm dần
+            if (!string.IsNullOrEmpty(request.SortBy) && request.SortBy.ToLower() == "asc")
+            {
+                sortDefinition = Builders<Messenger>.Sort.Ascending(sortField);
+            }
+
+            var skip = (request.PageIndex - 1) * request.PageSize;
+
+            var messages = await _context.Messengers
+                .Find(combinedFilter)  // Sử dụng bộ lọc kết hợp
+                .Sort(sortDefinition)
+                .Skip(skip)
+                .Limit(request.PageSize)
+                .ToListAsync();
+
+            if (messages == null || messages.Count == 0)
+            {
+                return new ApiResult<PagingResult<MessengerDto>>
+                {
+                    Status = false,
+                    Message = "No messages found for this conversation",
+                    Data = null
+                };
+            }
+
+            var messengerDtos = _mapper.Map<List<MessengerDto>>(messages);
+
+            var pagingResult = new PagingResult<MessengerDto>(messengerDtos, request.PageIndex ?? 1, request.PageSize ?? 10, (int)totalRecords);
+
+            return new ApiResult<PagingResult<MessengerDto>>
+            {
+                Status = true,
+                Message = "Successfully",
+                Data = pagingResult
+            };
+        }
+
 
 
 

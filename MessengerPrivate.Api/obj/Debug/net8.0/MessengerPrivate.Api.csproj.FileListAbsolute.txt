@@ -62,3 +62,4 @@ C:\Webbbb\MessengerPrivate\MessengerPrivate.Api\MessengerPrivate.Api\bin\Debug\n
 C:\Webbbb\MessengerPrivate\MessengerPrivate.Api\MessengerPrivate.Api\bin\Debug\net8.0\Microsoft.Extensions.Features.dll
 C:\Webbbb\MessengerPrivate\MessengerPrivate.Api\MessengerPrivate.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
 C:\Webbbb\MessengerPrivate\MessengerPrivate.Api\MessengerPrivate.Api\bin\Debug\net8.0\MessengerPrivate.Api.staticwebassets.runtime.json
+C:\Webbbb\MessengerPrivate\MessengerPrivate.Api\MessengerPrivate.Api\obj\Debug\net8.0\MessengerPrivate.Api.sourcelink.json

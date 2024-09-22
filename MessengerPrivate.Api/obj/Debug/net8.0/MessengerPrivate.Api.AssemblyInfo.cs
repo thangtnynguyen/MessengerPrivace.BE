@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MessengerPrivate.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2be065310835941433432f9f5e934591fb4f99e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MessengerPrivate.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MessengerPrivate.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

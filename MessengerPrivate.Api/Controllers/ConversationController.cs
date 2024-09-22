@@ -11,6 +11,7 @@ using MessengerPrivate.Api.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MongoDB.Driver;
+using System.Security.Claims;
 
 namespace MessengerPrivate.Api.Controllers
 {
@@ -158,6 +159,104 @@ namespace MessengerPrivate.Api.Controllers
                 Data = pagingResult
             };
         }
+
+
+
+        [HttpGet("get-by-id")]
+        public async Task<ApiResult<ConversationDto>> GetConversationById([ FromQuery]EntityIdentityRequest<string> request)
+        {
+
+            var currentUser = await _userService.GetUserInfo(HttpContext);
+
+            // Kiểm tra ID có hợp lệ hay không
+            if (string.IsNullOrEmpty(request.Id))
+            {
+                return new ApiResult<ConversationDto>
+                {
+                    Status = false,
+                    Message = "Invalid conversation ID.",
+                    Data = null
+                };
+            }
+
+            // Tìm cuộc trò chuyện theo ID
+            var conversation = await _context.Conversations.Find(c => c.Id == request.Id).FirstOrDefaultAsync();
+
+            if (conversation == null)
+            {
+                return new ApiResult<ConversationDto>
+                {
+                    Status = false,
+                    Message = "Conversation not found.",
+                    Data = null
+                };
+            }
+
+            // Chuyển đổi sang DTO
+            var conversationDto = _mapper.Map<ConversationDto>(conversation);
+
+            // Kiểm tra Type và AvatarUrl của cuộc trò chuyện
+            if (conversation.Type == "group" && string.IsNullOrEmpty(conversationDto.AvatarUrl))
+            {
+                // Lấy danh sách 3 người đầu tiên trong Participants nếu là group và AvatarUrl == null
+                var firstThreeParticipantsIds = conversation.Participants.Take(3).ToList();
+
+                // Truy vấn thông tin của 3 người đầu tiên
+                var firstThreeParticipants = await _context.Users
+                    .Find(user => firstThreeParticipantsIds.Contains(user.Id))
+                    .ToListAsync();
+
+                // Gán danh sách người dùng vào DTO
+                conversationDto.ParticipantInfos = firstThreeParticipants
+                    .Select(u => new UserDto
+                    {
+                        Id = u.Id,
+                        Name = u.Name,
+                        AvatarUrl = u.AvatarUrl
+                    }).ToList();
+            }
+            else
+            {
+                foreach (var parti in conversation.Participants)
+                {
+                    if (parti != currentUser.Id)
+                    {
+                        var participants = await _context.Users
+                                                .Find(user => parti == user.Id)
+                                                .ToListAsync();
+
+                        // Gán danh sách người dùng vào DTO
+                        conversationDto.ParticipantInfos = participants
+                            .Select(u => new UserDto
+                            {
+                                Id = u.Id,
+                                Name = u.Name,
+                                AvatarUrl = u.AvatarUrl
+                            }).ToList();
+
+                    }
+                }
+            }
+
+            // Nếu cần, lấy thông tin người tham gia khác
+            var currentUserId = currentUser.Id; // Giả sử currentUser có thuộc tính Id kiểu Guid
+            var otherUserId = conversation.Participants.FirstOrDefault(id => id != currentUserId);
+
+            if (otherUserId != null)
+            {
+                var otherUser = await _userService.GetUserById(otherUserId);
+                conversationDto.Name = otherUser.Name; // Gán tên của người kia cho cuộc trò chuyện
+            }
+
+            return new ApiResult<ConversationDto>
+            {
+                Status = true,
+                Message = "Successful",
+                Data = conversationDto
+            };
+        }
+
+
 
 
 

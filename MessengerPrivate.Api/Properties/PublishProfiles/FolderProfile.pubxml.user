@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>C:\Webbbb\MessengerPrivate\DeloymentBE</_PublishTargetUrl>
+    <History>True|2024-09-20T14:28:42.1878492Z||;True|2024-09-20T21:28:39.0693392+07:00||;True|2024-09-20T18:47:53.0605442+07:00||;True|2024-09-20T18:42:31.0551389+07:00||;True|2024-09-20T18:42:26.0369834+07:00||;True|2024-09-20T18:34:35.7163538+07:00||;True|2024-09-20T17:54:26.6369273+07:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>

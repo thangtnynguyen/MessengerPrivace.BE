@@ -1,4 +1,4 @@
-using MessengerPrivate.Api.Providers;
+﻿using MessengerPrivate.Api.Providers;
 using MessengerPrivate.Api.SignalR;
 using System.Text.Json.Serialization;
 
@@ -32,18 +32,28 @@ var app = builder.Build();
 
 // Configure CORS before Authentication and Authorization
 app.UseCors(builder => builder
-    .WithOrigins("http://localhost:4200", "https://tnymessenger.click", "https://localhost:4200")
+    .WithOrigins("http://localhost:4200", "https://localhost:4200", "https://tnymessenger.click", "http://tnymessenger.click", "http://103.153.69.217:9091", "https://103.153.69.217:9091")
     .AllowAnyMethod()
     .AllowAnyHeader()
     .AllowCredentials()
 );
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI();
+//}
+if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "MESSENGER PRIVATE TNY API V1");
+        c.RoutePrefix = "swagger"; // Đường dẫn để truy cập Swagger
+    });
 }
+
 
 app.UseHttpsRedirection();
 

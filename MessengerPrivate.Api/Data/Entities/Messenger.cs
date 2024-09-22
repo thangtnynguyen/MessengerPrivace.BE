@@ -47,7 +47,7 @@ namespace MessengerPrivate.Api.Data.Entities
     public class Media
     {
         [BsonElement("Type")]
-        public string Type { get; set; } // "image", "video", "audio"
+        public string Type { get; set; } // "image", "video", "audio",....
 
         [BsonElement("Url")]
         public string Url { get; set; } // The URL or path to the media
